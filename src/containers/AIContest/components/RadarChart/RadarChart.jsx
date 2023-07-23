@@ -1,5 +1,5 @@
 import { Box } from '@tonic-ui/react';
-import charts from 'echarts';
+import * as echarts from 'echarts';
 import React, { useEffect, useRef } from 'react';
 
 const generateRandomNumber = (min, max, limit) => {
@@ -14,7 +14,7 @@ const RadarChart = (talents) => {
   const chartRef = useRef(null);
   console.log('talents=', talents.talents, talents.talents[0]);
   useEffect(() => {
-    const chart = charts.init(chartRef.current, 'dark', {
+    const chart = echarts.init(chartRef.current, 'dark', {
       renderer: 'canvas',
       useDirtyRect: false,
     });
@@ -49,7 +49,7 @@ const RadarChart = (talents) => {
 
     option && chart.setOption(option);
   }, []);
-  return <Box ref={chartRef} w={800} h={400}></Box>;
+  return <Box ref={chartRef} w={500} h={400}></Box>;
 };
 
 export default RadarChart;

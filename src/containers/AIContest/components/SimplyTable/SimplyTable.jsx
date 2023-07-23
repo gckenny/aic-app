@@ -24,10 +24,10 @@ function SimplyTable({ data }) {
   return (
     <Table
       height={TABLE_ROW_HEIGHT * data.body.length + TABLE_HEADER_HEIGHT}
-      width="100%"
+      width="800px"
       className={`a1c1-simply-table cols_${data.header.length}`}
     >
-      <TableHeader className="header">
+      <TableHeader className="header" width="100%">
         <TableHeaderRow>
           {data.header.map((item, index) => (
             <TableHeaderCell className={`col${index}`} key={index}>
@@ -36,7 +36,7 @@ function SimplyTable({ data }) {
           ))}
         </TableHeaderRow>
       </TableHeader>
-      <TableBody className="body">
+      <TableBody className="body" width="100%">
         {data.body.map((item, rowIndex) => (
           <TableRow key={rowIndex}>
             {item.map((value, colIndex) => (
@@ -56,7 +56,7 @@ function SimplyTable({ data }) {
                   (typeof value === 'string' ? (
                     value
                   ) : (
-                    <UnorderedList pl={16} pt={0} mt={0} listStyleType="none">
+                    <UnorderedList pl={0} pt={0} mt={0} listStyleType="none">
                       {value.map((item, index) => (
                         <ListItem key={index}>
                           {/* {item} */}

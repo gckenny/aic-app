@@ -4,16 +4,16 @@
   padding: 0;
 }
 .a1c1-simply-table .col0 {
-  width: 30%;
+  width: 200px;
 }
 .a1c1-simply-table .col1 {
-  width: 30%;
+  width: 250px;
 }
 .a1c1-simply-table .col2 {
-  width: 20%;
+  width: 150px;
 }
 .a1c1-simply-table .col3 {
-  width: 10%;
+  width: 50px;
 }
 .a1c1-simply-table.cols_2 .col0 {
   width: 40%;
@@ -24,10 +24,10 @@
 .a1c1-simply-table .header div[class^='col'] {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
-  padding-left: 13px;
+  /* padding-left: 13px; */
 }
 .a1c1-simply-table .body div[class^='col'] {
   color: rgba(255, 255, 255, 0.92);
   font-size: 14px;
-  padding-left: 13px;
+  /* padding-left: 13px; */
 }
