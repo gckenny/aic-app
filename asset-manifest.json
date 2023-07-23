@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/aic-app/static/css/main.fe06f257.css",
-    "main.js": "/aic-app/static/js/main.48bae72e.js",
+    "main.css": "/aic-app/static/css/main.ea8f06f8.css",
+    "main.js": "/aic-app/static/js/main.a6691446.js",
     "index.html": "/aic-app/index.html",
-    "main.fe06f257.css.map": "/aic-app/static/css/main.fe06f257.css.map",
-    "main.48bae72e.js.map": "/aic-app/static/js/main.48bae72e.js.map"
+    "main.ea8f06f8.css.map": "/aic-app/static/css/main.ea8f06f8.css.map",
+    "main.a6691446.js.map": "/aic-app/static/js/main.a6691446.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe06f257.css",
-    "static/js/main.48bae72e.js"
+    "static/css/main.ea8f06f8.css",
+    "static/js/main.a6691446.js"
   ]
 }
