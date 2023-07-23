@@ -2,7 +2,8 @@
   "name": "aic-app",
   "version": "0.1.0",
   "private": false,
-  "homepage"："https://gckenny.github.io/aic-app""dependencies": {
+  "homepage": "https://gckenny.github.io/aic-app",
+  "dependencies": {
     "@emotion/react": "^11.11.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
